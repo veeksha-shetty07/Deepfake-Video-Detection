@@ -11,6 +11,20 @@ to identify whether the video is real or manipulated.
 3. Train a machine learning model using the extracted faces
 4. Predict whether the video is real or fake
 
+## How to Run the Project
+
+1. Extract frames from video
+python extract_frames.py
+
+2. Extract faces from frames
+python extract_faces.py
+
+3. Train the model
+python train_model.py
+
+4. Predict whether image/video is real or fake
+python predict.py
+
 ## Files in the Project
 extract_frames.py – Extracts frames from videos  
 extract_faces.py – Detects and extracts faces from frames  
